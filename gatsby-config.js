@@ -1,9 +1,4 @@
 module.exports = {
-	siteMetadata: {
-		title: `Karolina Vorlickova`,
-		description: ``,
-    	author: `Karolina Vorlickova`
-	},
 	plugins: [
 		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-styled-components`,
@@ -23,7 +18,7 @@ module.exports = {
 			  background_color: `#663399`,
 			  theme_color: `#663399`,
 			  display: `minimal-ui`,
-			  icon: `/static/favicon`, // This path is relative to the root of the site.
+			  icon: `/static/favicon`,
 			}
 		},
 		`gatsby-plugin-offline`,
