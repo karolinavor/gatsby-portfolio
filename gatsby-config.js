@@ -9,18 +9,5 @@ module.exports = {
 			  	path: `${__dirname}/src/`,
 			},
 		},
-		{
-			resolve: `gatsby-plugin-manifest`,
-			options: {
-			  name: `Karolina Vorlickova`,
-			  short_name: `Karolina Vorlickova`,
-			  start_url: `/`,
-			  background_color: `#663399`,
-			  theme_color: `#663399`,
-			  display: `minimal-ui`,
-			  icon: `/static/favicon`,
-			}
-		},
-		`gatsby-plugin-offline`,
 	]
 }

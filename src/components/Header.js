@@ -1,5 +1,10 @@
 import React from "react";
+import Logo from "../components/Logo";
 
 export default function Header() {
-    return <h1>Header</h1>
+    return (
+        <header>
+            <Logo size="60" />
+        </header>
+    );
 };
