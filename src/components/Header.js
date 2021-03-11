@@ -18,9 +18,10 @@ export default function Header() {
             {({ theme, toggleTheme }) => (
                 <FontAwesomeIcon
                     icon={faMoon}
+                    size="1x"
                     cursor="pointer"
                     onClick={() =>
-                    theme === "dark" ? toggleTheme("light") : toggleTheme("dark")
+                        theme === "dark" ? toggleTheme("light") : toggleTheme("dark")
                     }
                 />
             )}

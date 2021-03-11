@@ -3,6 +3,10 @@ import { createGlobalStyle } from "styled-components/macro";
 import { Helmet } from "react-helmet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { config } from "@fortawesome/fontawesome-svg-core"
+import "@fortawesome/fontawesome-svg-core/styles.css"
+
+config.autoAddCss = false
 
 const GlobalStyle = createGlobalStyle`
 	html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, 
@@ -22,6 +26,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: 16px;
         color: var(--text);
         background: var(--bg);
+
+        a {
+            color: var(--text);
+        }
 
         --bg: white;
         --text: #1e2327;
