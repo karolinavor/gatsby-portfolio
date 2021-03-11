@@ -1,9 +1,10 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/macro";
 
 const StyledLink = styled.a`
-    color: black;
     display: inline-block;
+    margin: 1rem;
+    color: var(--text);
 `
 
 export default function Icon(props) {
@@ -12,6 +13,8 @@ export default function Icon(props) {
             href={props.url}
             target="_blank"
             rel="noreferrer"
-        >{props.children}</StyledLink>
+        >
+            {props.children}
+        </StyledLink>
     );
 };

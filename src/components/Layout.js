@@ -1,29 +1,44 @@
 import React from "react";
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components/macro";
 import { Helmet } from "react-helmet";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const GlobalStyle = createGlobalStyle`
-	html,body {
+	html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, blockquote, img, 
+    ol, ul, li, input, label, select, table, tbody, tfoot, thead, tr, th, 
+    td, footer, header, menu, nav, section, video {
 		margin: 0;
 		padding: 0;
-        width: 100%;
-		height: 100%;
+        font-size: 100%; 
+        list-style: none; 
+        border: 0;
     }
 
 	body {
-		font-size: 16px;
-        margin: 3rem auto;
         max-width: 900px;
+        margin: 2rem auto;
         padding: 0 1rem;
+        font-size: 16px;
+        color: var(--text);
+        background: var(--bg);
+
+        --bg: white;
+        --text: #1e2327;
+        --textColored: #1e2327;
+
+        &.dark {
+            --bg: #1e2327;
+            --text: white;
+            --textColored: white;
+        }
 	}
 `
 
 export default function Layout(props) {
     return (
         <>
-            <Helmet>
+            <Helmet defer={false}>
                 <html lang="en" />
                 <title>
                     Karolina Vorlickova | Web Developer
@@ -38,7 +53,7 @@ export default function Layout(props) {
                 />
                 <meta 
                     name="keywords" 
-                    content="web,applications,developer,html,css,javascript,portfolio,frontend,backend,student,computer science"
+                    content="web,applications,developer,html,css,javascript,react,portfolio,frontend,backend,student,computer science"
                 />
                 <meta 
                     property="og:title" 
@@ -83,7 +98,9 @@ export default function Layout(props) {
             </Helmet>
             <GlobalStyle />
             <Header />
-            {props.children}
+            <main>
+                {props.children}
+            </main>
 			<Footer />
         </>
     );
