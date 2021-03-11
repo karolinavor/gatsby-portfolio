@@ -7,7 +7,7 @@ const StyledLink = styled(Link)`
     display: block;
     height: ${p => p.size}px;
     width: ${p => p.size}px;
-`
+`;
 
 export default function Logo(props) {
     return (

@@ -8,7 +8,7 @@ import { faAt } from "@fortawesome/free-solid-svg-icons";
 const FooterWrapper = styled.footer`
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin: 4rem 0 3rem 0;
 `;
 
 export default function Footer() {

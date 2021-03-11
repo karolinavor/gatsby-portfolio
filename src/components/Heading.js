@@ -1,9 +1,10 @@
 import styled from "styled-components/macro";
 
-export const Heading = styled.h1`
-    font-size: 60px;
+const Heading = styled.h1`
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
 `;
 
-export const Subheading = styled.h2`
-    font-size: 30px;
-`;
+export default Heading;
