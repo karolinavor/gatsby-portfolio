@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
         &.light {
             font-weight: 400;
             --bg: white;
+            --bg-secondary: #f7f7f7;
             --text: #1e2327;
             --link: #1e2327;
             --hover: #808080;
@@ -27,22 +28,21 @@ const GlobalStyle = createGlobalStyle`
         &.dark {
             font-weight: 300;
             --bg: #121212;
+            --bg-secondary: #0f0f0f;
             --text: #cecece;
             --link: #cecece;
             --hover: white;
         }
 
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 0 1rem;
         font-size: 16px;
         color: var(--text);
         background: var(--bg);
 
         a {
-            color: var(--text);
+            text-decoration: none;
+            color: var(--link);
         }
 	}
 `
 
-export default GlobalStyle;
+export default GlobalStyle

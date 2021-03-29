@@ -1,28 +1,35 @@
-import React from "react";
-import styled from "styled-components/macro";
-import Icon from "../components/Icon";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
+import React from "react"
+import styled from "styled-components/macro"
+import Icon from "../components/Icon"
+import Link from "../components/Link"
+import { FlexContainer } from "./Containers"
+import { Github, Linkedin } from "react-bootstrap-icons"
 
 const FooterWrapper = styled.footer`
-    display: flex;
-    justify-content: center;
-    margin: 4rem 0 3rem 0;
-`;
+  background-color: var(--bg-secondary);
+  padding: 4rem 0;
+`
+
+const SocialsWrapper = styled.div`
+  height: 32px;
+`
 
 export default function Footer() {
-    return (
-        <FooterWrapper>
-            <Icon url="https://github.com/karolinavor">
-                <FontAwesomeIcon icon={faGithub} size="2x" />
-            </Icon>
-            <Icon url="https://www.linkedin.com/in/karolinavor/">
-                    <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
-            </Icon>
-            <Icon url="mailto:vorlickovakarolina@gmail.com">
-                <FontAwesomeIcon icon={faAt} size="2x" />
-            </Icon>
-        </FooterWrapper>
-    );
-};
+  return (
+    <FooterWrapper>
+      <FlexContainer>
+        <Link href="mailto:vorlickovakarolina@gmail.com">
+          vorlickovakarolina@gmail.com
+        </Link>
+        <SocialsWrapper>
+          <Icon url="https://github.com/karolinavor">
+            <Github size="32" cursor="pointer" />
+          </Icon>
+          <Icon url="https://www.linkedin.com/in/karolinavor/">
+            <Linkedin size="32" cursor="pointer" />
+          </Icon>
+        </SocialsWrapper>
+      </FlexContainer>
+    </FooterWrapper>
+  )
+}
