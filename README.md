@@ -1,6 +1,6 @@
 # Portfolio
 
-My personal portfolio website built using GatsbyJS.
+My personal portfolio website built using GatsbyJS and Styled Components 💅.
 
 ## Install and run website locally
 
