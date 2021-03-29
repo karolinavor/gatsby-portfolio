@@ -1,8 +1,7 @@
 import React from "react"
 import styled from "styled-components/macro"
-import Icon from "../components/Icon"
-import Link from "../components/Link"
-import { FlexContainer } from "./Containers"
+import { ExternalLink, ExternalIcon } from "./Link"
+import { FlexContainer } from "./Container"
 import { Github, Linkedin } from "react-bootstrap-icons"
 
 const FooterWrapper = styled.footer`
@@ -18,16 +17,24 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <FlexContainer>
-        <Link href="mailto:vorlickovakarolina@gmail.com">
+        <ExternalLink href="mailto:vorlickovakarolina@gmail.com">
           vorlickovakarolina@gmail.com
-        </Link>
+        </ExternalLink>
         <SocialsWrapper>
-          <Icon url="https://github.com/karolinavor">
+          <ExternalIcon
+            href="https://github.com/karolinavor"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Github size="32" cursor="pointer" />
-          </Icon>
-          <Icon url="https://www.linkedin.com/in/karolinavor/">
+          </ExternalIcon>
+          <ExternalIcon
+            href="https://www.linkedin.com/in/karolinavor/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <Linkedin size="32" cursor="pointer" />
-          </Icon>
+          </ExternalIcon>
         </SocialsWrapper>
       </FlexContainer>
     </FooterWrapper>

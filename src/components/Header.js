@@ -1,12 +1,12 @@
 import React from "react"
 import styled from "styled-components/macro"
-import Logo from "../components/Logo"
-import { FlexContainer } from "./Containers"
+import { InternalLink } from "./Link"
+import { FlexContainer } from "./Container"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { BrightnessHighFill, MoonFill } from "react-bootstrap-icons"
 
 const HeaderWrapper = styled.header`
-  padding: 3rem 0;
+  padding: 4rem 0;
 `
 
 const ThemeToggleIconWrapper = styled.div`
@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <HeaderWrapper>
       <FlexContainer>
-        <Logo size="48" />
+        <InternalLink to="/">Karolina Vorlickova</InternalLink>
         <ThemeToggler>
           {({ theme, toggleTheme }) => (
             <ThemeToggleIconWrapper>
