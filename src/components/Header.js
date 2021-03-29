@@ -6,6 +6,7 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { BrightnessHighFill, MoonFill } from "react-bootstrap-icons"
 
 const HeaderWrapper = styled.header`
+  background-color: var(--bg-secondary);
   padding: 4rem 0;
 `
 

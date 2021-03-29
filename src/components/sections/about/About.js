@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components/macro"
-import Heading from "../../Heading"
+import { Heading } from "../../Heading"
 import Paragraph from "../../Paragraph"
 import { Container } from "../../Container"
 

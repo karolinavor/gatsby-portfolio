@@ -14,7 +14,11 @@ const ExternalIcon = styled.a`
   display: inline-block;
   color: var(--link);
   height: 100%;
-  margin-left: 1.5rem;
+  padding: 1rem 1rem 0 1rem;
+
+  @media screen and (min-width: 900px) {
+    padding: 0 0 0 1.5rem;
+  }
 `
 
 const InternalLink = styled(Link)`

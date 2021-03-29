@@ -8,8 +8,15 @@ const Container = styled.div`
 
 const FlexContainer = styled(Container)`
   display: flex;
-  justify-content: space-between;
+
+  flex-direction: column;
   align-items: center;
+
+  @media screen and (min-width: 900px) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 `
 
 export { Container, FlexContainer }

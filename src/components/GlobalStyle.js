@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
+    // TODO move to Helmet
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 
     @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
@@ -22,7 +23,8 @@ const GlobalStyle = createGlobalStyle`
             --bg-secondary: #f7f7f7;
             --text: #1e2327;
             --link: #1e2327;
-            --hover: #808080;
+            // TODO hover
+            --hover: rgb(235, 195, 64);
         }
 
         &.dark {
@@ -31,10 +33,13 @@ const GlobalStyle = createGlobalStyle`
             --bg-secondary: #0f0f0f;
             --text: #cecece;
             --link: #cecece;
+            // TODO hover
             --hover: white;
         }
 
         font-size: 16px;
+        font-weight: 400;
+        min-height: 100vh;
         color: var(--text);
         background: var(--bg);
 

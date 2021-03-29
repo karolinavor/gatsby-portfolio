@@ -10,7 +10,11 @@ const FooterWrapper = styled.footer`
 `
 
 const SocialsWrapper = styled.div`
-  height: 32px;
+  height: 100%;
+
+  @media screen and (min-width: 900px) {
+    height: 32px;
+  }
 `
 
 export default function Footer() {

@@ -1,11 +1,14 @@
 import React from "react"
 import Layout from "../components/Layout"
-import Heading from "../components/Heading"
+import { Container } from "../components/Container"
+import { Heading } from "../components/Heading"
 
 export default function Nextcore() {
   return (
     <Layout>
-      <Heading>Nextcore</Heading>
+      <Container>
+        <Heading>Nextcore</Heading>
+      </Container>
     </Layout>
   )
 }

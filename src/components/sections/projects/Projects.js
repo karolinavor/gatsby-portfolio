@@ -1,10 +1,11 @@
 import React from "react"
 import styled from "styled-components/macro"
-import Subheading from "../../Subheading"
-import Paragraph from "../../Paragraph"
-import ProjectCard from "./Card"
-import NextcoreImg from "../../../images/Nextcore.png"
 import { Container } from "../../Container"
+import { Subheading } from "../../Heading"
+import Paragraph from "../../Paragraph"
+import Card from "./Card"
+import Nextcore1 from "../../../images/Nextcore1.png"
+import Nextcore2 from "../../../images/Nextcore2.png"
 
 const ProjectsWrapper = styled.div`
   padding: 4rem 0;
@@ -13,8 +14,12 @@ const ProjectsWrapper = styled.div`
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 2rem;
+
+  @media screen and (min-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
 `
 
 export default function Projects() {
@@ -28,17 +33,17 @@ export default function Projects() {
           justo eget iaculis aliquam.
         </Paragraph>
         <ProjectsGridWrapper>
-          <ProjectCard
+          <Card
             name="Nextcore"
             page="/nextcore"
-            img={NextcoreImg}
+            img={Nextcore1}
             description="I worked on this website's front end. It's built with HTML, CSS and JavaScript. Phasellus venenatis justo eget iaculis aliquam."
           />
-          <ProjectCard
+          <Card
             name="React Blog"
             page="/react-blog"
-            img={NextcoreImg}
-            description="Full stack web application built with React, Node.js and MongoDB. Phasellus venenatis justo eget iaculis aliquam."
+            img={Nextcore2}
+            description="Full stack web application built with React, Node.js and MongoDB. Phasellus venenatis justo eget iaculis aliquam. Kelem asa nomeb."
           />
         </ProjectsGridWrapper>
       </Container>

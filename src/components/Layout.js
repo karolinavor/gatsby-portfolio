@@ -1,8 +1,15 @@
 import React from "react"
+import styled from "styled-components/macro"
 import { Helmet } from "react-helmet"
 import GlobalStyle from "./GlobalStyle"
 import Header from "./Header"
 import Footer from "./Footer"
+
+const PageGrid = styled.div`
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+`
 
 export default function Layout(props) {
   return (
@@ -43,9 +50,11 @@ export default function Layout(props) {
         <meta name="twitter:image" content="" />
       </Helmet>
       <GlobalStyle />
-      <Header />
-      <main>{props.children}</main>
-      <Footer />
+      <PageGrid>
+        <Header />
+        <main>{props.children}</main>
+        <Footer />
+      </PageGrid>
     </>
   )
 }
