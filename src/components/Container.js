@@ -4,6 +4,7 @@ const Container = styled.div`
   max-width: 900px;
   padding: 0 1rem;
   margin: 0 auto;
+  height: 100%;
 `
 
 const FlexContainer = styled(Container)`

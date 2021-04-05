@@ -5,7 +5,11 @@ import { Container } from "../components/Container"
 import { Heading } from "../components/Heading"
 
 const NotFoundWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  height: 100%;
 `
 
 export default function NotFound404() {

@@ -1,11 +1,11 @@
 import React from "react"
 import styled from "styled-components/macro"
-import { Container } from "../../Container"
-import { Subheading } from "../../Heading"
-import Paragraph from "../../Paragraph"
+import { Container } from "./Container"
+import { Subheading } from "./Heading"
+import Paragraph from "./Paragraph"
 import Card from "./Card"
-import Nextcore1 from "../../../images/Nextcore1.png"
-import Nextcore2 from "../../../images/Nextcore2.png"
+import Nextcore1 from "../images/Nextcore1.png"
+import Nextcore2 from "../images/Nextcore2.png"
 
 const ProjectsWrapper = styled.div`
   padding: 4rem 0;

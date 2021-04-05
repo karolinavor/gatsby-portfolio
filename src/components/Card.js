@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components/macro"
-import { Title } from "../../Heading"
-import Paragraph from "../../Paragraph"
-import { InternalLink } from "../../Link"
+import { Title } from "./Heading"
+import Paragraph from "./Paragraph"
+import { InternalLink } from "./Link"
 
 const CardWrapper = styled.div`
   width: 100%;

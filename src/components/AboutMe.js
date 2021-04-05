@@ -1,14 +1,14 @@
 import React from "react"
 import styled from "styled-components/macro"
-import { Heading } from "../../Heading"
-import Paragraph from "../../Paragraph"
-import { Container } from "../../Container"
+import { Heading } from "./Heading"
+import Paragraph from "./Paragraph"
+import { Container } from "./Container"
 
 const AboutWrapper = styled.div`
   padding: 4rem 0;
 `
 
-export default function About() {
+export default function AboutMe() {
   return (
     <AboutWrapper>
       <Container>
