@@ -14,9 +14,24 @@ const GlobalStyle = createGlobalStyle`
         font-size: 100%; 
         list-style: none; 
         border: 0;
+        text-decoration: none;
+    }
+
+    * {
+        box-sizing: border-box; 
     }
 
 	body {
+        font-size: 16px;
+        font-weight: 400;
+        min-height: 100vh;
+        color: var(--text);
+        background: var(--bg);
+
+        a {
+            color: var(--link);
+        }
+
         &.light {
             font-weight: 400;
             --bg: white;
@@ -35,17 +50,6 @@ const GlobalStyle = createGlobalStyle`
             --link: #cecece;
             // TODO hover
             --hover: white;
-        }
-
-        font-size: 16px;
-        font-weight: 400;
-        min-height: 100vh;
-        color: var(--text);
-        background: var(--bg);
-
-        a {
-            text-decoration: none;
-            color: var(--link);
         }
 	}
 `
