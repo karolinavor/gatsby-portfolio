@@ -20,4 +20,8 @@ const FlexContainer = styled(Container)`
   }
 `
 
-export { Container, FlexContainer }
+const Wrapper = styled.div`
+  padding: 4rem 0;
+`
+
+export { Container, FlexContainer, Wrapper }

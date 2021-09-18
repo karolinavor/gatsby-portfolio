@@ -2,7 +2,11 @@ import React from "react"
 import styled from "styled-components/macro"
 import { ExternalLink, ExternalIcon } from "./Link"
 import { FlexContainer } from "./Container"
-import { Github, Linkedin } from "react-bootstrap-icons"
+
+import {
+  FaGithub,
+  FaLinkedinIn
+} from "react-icons/fa";
 
 const FooterWrapper = styled.footer`
   background-color: var(--bg-secondary);
@@ -30,14 +34,14 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <Github size="32" cursor="pointer" />
+            <FaGithub size="32" cursor="pointer" />
           </ExternalIcon>
           <ExternalIcon
             href="https://www.linkedin.com/in/karolinavor/"
             target="_blank"
             rel="noreferrer"
           >
-            <Linkedin size="32" cursor="pointer" />
+            <FaLinkedinIn size="32" cursor="pointer" />
           </ExternalIcon>
         </SocialsWrapper>
       </FlexContainer>

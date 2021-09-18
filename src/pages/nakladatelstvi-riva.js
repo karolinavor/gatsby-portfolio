@@ -6,19 +6,20 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 
-export default function Nextcore() {
+export default function NakladatelstviRiva() {
   return (
     <Layout>
       <Container>
         <Wrapper>
-          <Heading>Nextcore</Heading>
+          <Heading>Nakladatelství Riva</Heading>
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Mou prací bylo vymyslet jednoduchý design webových stránek a následně jej nakódovat.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.nextcore.cz/">
+          <Hashtag>#Nette</Hashtag>
+          <Paragraph>Kódováno podle grafické předlohy. Součástí projektu bylo napojení na CMS psané v Nette.</Paragraph>
+          <ExternalLink className="margin-bottom" href="https://nakladatelstvi-riva.cz">
             Go To Website
           </ExternalLink>
         </Wrapper>

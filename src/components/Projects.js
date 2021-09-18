@@ -1,15 +1,11 @@
 import React from "react"
 import styled from "styled-components/macro"
-import { Container } from "./Container"
+import { Container, Wrapper } from "./Container"
 import { Subheading } from "./Heading"
 import Paragraph from "./Paragraph"
 import Card from "./Card"
-import Nextcore1 from "../images/Nextcore1.png"
+import NextcorePreview from "../images/Nextcore-preview.png"
 import Nextcore2 from "../images/Nextcore2.png"
-
-const ProjectsWrapper = styled.div`
-  padding: 4rem 0;
-`
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -24,29 +20,31 @@ const ProjectsGridWrapper = styled.div`
 
 export default function Projects() {
   return (
-    <ProjectsWrapper>
+    <Wrapper>
       <Container>
         <Subheading>Projects</Subheading>
-        <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          at leo at erat varius consectetur sed at neque. Phasellus venenatis
-          justo eget iaculis aliquam.
-        </Paragraph>
+        <Paragraph>Zde najdete mé projekty. Další budou časem přibývat.</Paragraph>
         <ProjectsGridWrapper>
           <Card
             name="Nextcore"
             page="/nextcore"
-            img={Nextcore1}
-            description="I worked on this website's front end. It's built with HTML, CSS and JavaScript. Phasellus venenatis justo eget iaculis aliquam."
+            img={NextcorePreview}
+            description=""
           />
           <Card
-            name="React Blog"
-            page="/react-blog"
+            name="Nakladatelství Riva"
+            page="/nakladatelstvi-riva"
             img={Nextcore2}
-            description="Full stack web application built with React, Node.js and MongoDB. Phasellus venenatis justo eget iaculis aliquam. Kelem asa nomeb."
+            description=""
+          />
+          <Card
+            name="Diveen"
+            page="/diveen"
+            img={Nextcore2}
+            description=""
           />
         </ProjectsGridWrapper>
       </Container>
-    </ProjectsWrapper>
+    </Wrapper>
   )
 }

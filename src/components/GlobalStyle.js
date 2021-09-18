@@ -41,8 +41,10 @@ const GlobalStyle = createGlobalStyle`
             --bg-secondary: #f7f7f7;
             --text: #1e2327;
             --link: #1e2327;
-            // TODO hover
-            --hover: rgb(235, 195, 64);
+            --hover: blue;
+            --hashtag-bg: blue;
+            --hashtag-color: white;
+            --hashtag-font-weight: 400;
         }
 
         &.dark {
@@ -51,10 +53,24 @@ const GlobalStyle = createGlobalStyle`
             --bg-secondary: #0f0f0f;
             --text: #cecece;
             --link: #cecece;
-            // TODO hover
             --hover: white;
+            --hashtag-bg: #cecece;
+            --hashtag-color: black;
+            --hashtag-font-weight: 600;
         }
 	}
+
+    div {
+        font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .margin-bottom {
+        margin-bottom: 1rem;
+    }
 `
 
 export default GlobalStyle

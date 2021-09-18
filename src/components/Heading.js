@@ -1,9 +1,14 @@
 import styled from "styled-components/macro"
 
 const Heading = styled.h1`
-  font-size: 4rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
   font-weight: 700;
+
+  @media screen and (min-width: 992px) {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
 `
 
 const Subheading = styled.h2`
@@ -14,6 +19,7 @@ const Subheading = styled.h2`
 
 const Title = styled.h2`
   font-size: 1.5rem;
+  margin-top: .5rem;
   margin-bottom: 1rem;
   font-weight: 500;
 `

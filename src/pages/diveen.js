@@ -6,19 +6,19 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 
-export default function Nextcore() {
+export default function Diveen() {
   return (
     <Layout>
       <Container>
         <Wrapper>
-          <Heading>Nextcore</Heading>
+          <Heading>Diveen</Heading>
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Mou prací bylo vymyslet jednoduchý design webových stránek a následně jej nakódovat.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.nextcore.cz/">
+          <Paragraph>Zadání projektu bylo nakódování obsahu ze stránky www.diveen.cz na Shoptet web.</Paragraph>
+          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/stresova-inkontinence/">
             Go To Website
           </ExternalLink>
         </Wrapper>

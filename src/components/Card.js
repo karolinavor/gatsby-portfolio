@@ -7,6 +7,11 @@ import { InternalLink } from "./Link"
 const CardWrapper = styled.div`
   width: 100%;
   height: 100%;
+  margin: 2rem 0;
+
+  @media screen and (min-width: 992px) {
+    margin: 1rem 0;
+  }
 `
 
 export default function Card(props) {
