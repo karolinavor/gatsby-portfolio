@@ -7,6 +7,7 @@ const ExternalLink = styled.a`
   color: var(--link);
   padding-bottom: 0.1rem;
   border-bottom: 1.8px solid var(--link);
+  cursor: pointer;
 
   &:hover {
     color: var(--hover);
@@ -20,6 +21,7 @@ const ExternalIcon = styled.a`
   color: var(--link);
   height: 100%;
   padding: 1rem 1rem 0 1rem;
+  cursor: pointer;
 
   @media screen and (min-width: 900px) {
     padding: 0 0 0 1.5rem;
@@ -36,6 +38,7 @@ const InternalLink = styled(Link)`
   color: var(--link);
   padding-bottom: 0.1rem;
   border-bottom: 1.8px solid var(--link);
+  cursor: pointer;
 
   &:hover {
     color: var(--hover);
@@ -49,6 +52,7 @@ const InternalIcon = styled.div`
   color: var(--link);
   height: 100%;
   padding: 1rem 1rem 0 1rem;
+  cursor: pointer;
 
   @media screen and (min-width: 900px) {
     padding: 0 0 0 1.5rem;

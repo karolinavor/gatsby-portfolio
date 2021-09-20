@@ -4,8 +4,9 @@ import { Container, Wrapper } from "./Container"
 import { Subheading } from "./Heading"
 import Paragraph from "./Paragraph"
 import Card from "./Card"
-import NextcorePreview from "../images/Nextcore-preview.png"
-import Nextcore2 from "../images/Nextcore2.png"
+import NextcorePreview from "../images/Nextcore-preview.jpg"
+import RivaPreview from "../images/Riva-preview.jpg"
+import DiveenPreview from "../images/Diveen-preview.jpg"
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -29,19 +30,19 @@ export default function Projects() {
             name="Nextcore"
             page="/nextcore"
             img={NextcorePreview}
-            description=""
+            description="Website"
           />
           <Card
             name="Nakladatelství Riva"
             page="/nakladatelstvi-riva"
-            img={Nextcore2}
-            description=""
+            img={RivaPreview}
+            description="E-shop"
           />
           <Card
             name="Diveen"
             page="/diveen"
-            img={Nextcore2}
-            description=""
+            img={DiveenPreview}
+            description="Web page"
           />
         </ProjectsGridWrapper>
       </Container>

@@ -5,6 +5,8 @@ import { Heading } from "../components/Heading"
 import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
+import Image from "../components/Image"
+import DiveenFull from "../images/Diveen-full.jpg"
 
 export default function Diveen() {
   return (
@@ -21,6 +23,7 @@ export default function Diveen() {
           <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/stresova-inkontinence/">
             Go To Website
           </ExternalLink>
+          <Image src={DiveenFull} alt="Project screenshot" />
         </Wrapper>
       </Container>
     </Layout>

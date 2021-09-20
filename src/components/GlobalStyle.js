@@ -64,8 +64,8 @@ const GlobalStyle = createGlobalStyle`
         font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
     }
 
-    .text-center {
-        text-align: center;
+    .p-0 {
+        padding: 0;
     }
 
     .margin-bottom {

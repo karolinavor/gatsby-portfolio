@@ -5,6 +5,8 @@ import { Heading } from "../components/Heading"
 import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
+import NextcoreFull from "../images/Nextcore-full.jpg"
+import Image from "../components/Image"
 
 export default function Nextcore() {
   return (
@@ -21,6 +23,7 @@ export default function Nextcore() {
           <ExternalLink className="margin-bottom" href="https://www.nextcore.cz/">
             Go To Website
           </ExternalLink>
+          <Image src={NextcoreFull} alt="Project screenshot" />
         </Wrapper>
       </Container>
     </Layout>

@@ -29,6 +29,7 @@ const HeaderWrapper = styled.header`
 const ThemeToggleIconWrapper = styled.div`
   height: 24px;
   color: var(--link);
+  cursor: pointer;
 
   &:hover {
     color: var(--hover);
@@ -46,13 +47,11 @@ export default function Header() {
               {theme === "light" ? (
                 <FaLightbulb
                   size="24"
-                  cursor="pointer"
                   onClick={() => toggleTheme("dark")}
                 />
               ) : (
                 <FaRegLightbulb
                   size="24"
-                  cursor="pointer"
                   onClick={() => toggleTheme("light")}
                 />
               )}

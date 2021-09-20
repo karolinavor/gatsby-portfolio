@@ -34,14 +34,14 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
           >
-            <FaGithub size="32" cursor="pointer" />
+            <FaGithub size="32" />
           </ExternalIcon>
           <ExternalIcon
             href="https://www.linkedin.com/in/karolinavor/"
             target="_blank"
             rel="noreferrer"
           >
-            <FaLinkedinIn size="32" cursor="pointer" />
+            <FaLinkedinIn size="32" />
           </ExternalIcon>
         </SocialsWrapper>
       </FlexContainer>
