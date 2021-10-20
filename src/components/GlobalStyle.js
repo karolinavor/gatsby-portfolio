@@ -13,12 +13,6 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box; 
     }
 
-    h1,h2,h3,h4,h5,h6 {
-        font-family: Rubik, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-        Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial,
-        sans-serif;
-    }
-
     li {
         list-style: none; 
     }
@@ -34,6 +28,7 @@ const GlobalStyle = createGlobalStyle`
         min-height: 100vh;
         color: var(--text);
         background: var(--bg);
+        font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
 
         &.light {
             font-weight: 400;
@@ -60,8 +55,9 @@ const GlobalStyle = createGlobalStyle`
         }
 	}
 
-    div {
-        font-family: Open Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+    img {
+        max-width: 100%;
+        height: auto;
     }
 
     .p-0 {
@@ -70,6 +66,10 @@ const GlobalStyle = createGlobalStyle`
 
     .margin-bottom {
         margin-bottom: 1rem;
+    }
+
+    .margin-top {
+        margin-top: 1rem;
     }
 `
 

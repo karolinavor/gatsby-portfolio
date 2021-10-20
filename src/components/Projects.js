@@ -7,6 +7,8 @@ import Card from "./Card"
 import NextcorePreview from "../images/Nextcore-preview.jpg"
 import RivaPreview from "../images/Riva-preview.jpg"
 import DiveenPreview from "../images/Diveen-preview.jpg"
+import ProntodermPreview from "../images/Prontoderm-preview.jpg"
+import NutricePreview from "../images/Nutrice-preview.jpg"
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -26,12 +28,26 @@ export default function Projects() {
         <Subheading>Projects</Subheading>
         <Paragraph>Zde najdete mé projekty. Další budou časem přibývat.</Paragraph>
         <ProjectsGridWrapper>
+          {/*
           <Card
-            name="Nextcore"
-            page="/nextcore"
-            img={NextcorePreview}
+            name="iisign"
+            page="/iisign"
+            img={RivaPreview}
             description="Website"
           />
+          <Card
+            name="Jsme Tesari"
+            page="/jsme-tesari"
+            img={RivaPreview}
+            description="Website"
+          />
+          <Card
+            name="Prontosan"
+            page="/prontosan"
+            img={RivaPreview}
+            description="Website"
+          />
+          */}
           <Card
             name="Nakladatelství Riva"
             page="/nakladatelstvi-riva"
@@ -39,10 +55,28 @@ export default function Projects() {
             description="E-shop"
           />
           <Card
+            name="Nutrice"
+            page="/nutrice"
+            img={NutricePreview}
+            description="Landing page"
+          />
+          <Card
+            name="Prontoderm"
+            page="/prontoderm"
+            img={ProntodermPreview}
+            description="Landing page"
+          />
+          <Card
             name="Diveen"
             page="/diveen"
             img={DiveenPreview}
-            description="Web page"
+            description="Landing page"
+          />
+          <Card
+            name="Nextcore"
+            page="/nextcore"
+            img={NextcorePreview}
+            description="Website"
           />
         </ProjectsGridWrapper>
       </Container>

@@ -20,7 +20,7 @@ export default function NakladatelstviRiva() {
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
           <Hashtag>#Nette</Hashtag>
-          <Paragraph>Kódováno podle grafické předlohy. Součástí projektu bylo napojení na CMS psané v Nette.</Paragraph>
+          <Paragraph>Kódováno podle grafické předlohy. Součástí projektu bylo napojení na 1.WebIT CMS.</Paragraph>
           <ExternalLink className="margin-bottom" href="https://nakladatelstvi-riva.cz">
             Go To Website
           </ExternalLink>

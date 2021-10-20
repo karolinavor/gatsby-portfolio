@@ -9,7 +9,7 @@ export default function AboutMe() {
     <Wrapper>
       <Container>
         <Heading>
-          I&apos;m junior web developer and CS student based in Brno, Czech
+          Junior web developer and Computer Science student based in Brno, Czech
           Republic.
         </Heading>
         <Paragraph>

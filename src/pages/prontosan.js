@@ -17,6 +17,7 @@ export default function Diveen() {
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
+          <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
           <Paragraph>Zadání projektu bylo nakódování obsahu ze stránky www.diveen.cz na Shoptet web.</Paragraph>
           <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/stresova-inkontinence/">

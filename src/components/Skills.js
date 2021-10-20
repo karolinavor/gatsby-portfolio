@@ -11,7 +11,8 @@ import {
   FaJsSquare,
   FaReact,
   FaSass,
-  FaFigma
+  FaFigma,
+  FaBootstrap
 } from "react-icons/fa";
 
 import {
@@ -25,11 +26,13 @@ const SkillsWrapper = styled.div`
 
 const Flex = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 `
 
 const ExternalSkillIcon = styled(ExternalIcon)`
   padding: 0;
+  text-align: center;
 `
 
 export default function Skills() {
@@ -41,6 +44,7 @@ export default function Skills() {
             href="https://developer.mozilla.org/en-US/docs/Web/HTML"
             target="_blank"
             rel="noreferrer"
+            className="margin-bottom"
           >
             <FaHtml5 size="48" />
           </ExternalSkillIcon>
@@ -48,6 +52,7 @@ export default function Skills() {
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
             rel="noreferrer"
+            className="margin-bottom"
           >
             <FaCss3Alt size="48" />
           </ExternalSkillIcon>
@@ -55,13 +60,25 @@ export default function Skills() {
             href="https://sass-lang.com"
             target="_blank"
             rel="noreferrer"
+            className="margin-bottom"
           >
             <FaSass size="48" />
           </ExternalSkillIcon>
           <ExternalSkillIcon
+            href="https://getbootstrap.com"
+            target="_blank"
+            rel="noreferrer"
+            className="margin-bottom"
+          >
+            <FaBootstrap size="48" />
+          </ExternalSkillIcon>
+        </Flex>
+        <Flex>
+          <ExternalSkillIcon
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
             rel="noreferrer"
+            className="margin-top"
           >
             <FaJsSquare size="48" />
           </ExternalSkillIcon>
@@ -69,20 +86,23 @@ export default function Skills() {
             href="https://reactjs.org"
             target="_blank"
             rel="noreferrer"
+            className="margin-top"
           >
             <FaReact size="48" />
           </ExternalSkillIcon>
           <ExternalSkillIcon
             href="https://www.gatsbyjs.com"
             target="_blank"
-            rel="noreferrer"  
+            rel="noreferrer"
+            className="margin-top"
           >
             <GrGatsbyjs size="48" />
           </ExternalSkillIcon>
           <ExternalSkillIcon
             href="https://www.figma.com"
             target="_blank"
-            rel="noreferrer"  
+            rel="noreferrer"
+            className="margin-top"
           >
             <FaFigma size="48" />
           </ExternalSkillIcon>

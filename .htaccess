@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+# presmerovani na www a https
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www.karolinavorlickova.cz$ [NC]
+RewriteRule ^(.*)$ https://www.karolinavorlickova.cz/$1 [R=301,L]

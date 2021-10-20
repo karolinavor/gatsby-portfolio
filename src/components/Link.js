@@ -2,7 +2,6 @@ import styled from "styled-components/macro"
 import { Link } from "gatsby"
 
 const ExternalLink = styled.a`
-  font-family: "Montserrat", sans-serif;
   display: inline-block;
   color: var(--link);
   padding-bottom: 0.1rem;
@@ -16,7 +15,6 @@ const ExternalLink = styled.a`
 `
 
 const ExternalIcon = styled.a`
-  font-family: "Montserrat", sans-serif;
   display: inline-block;
   color: var(--link);
   height: 100%;
@@ -33,7 +31,6 @@ const ExternalIcon = styled.a`
 `
 
 const InternalLink = styled(Link)`
-  font-family: "Montserrat", sans-serif;
   display: inline-block;
   color: var(--link);
   padding-bottom: 0.1rem;
@@ -47,7 +44,6 @@ const InternalLink = styled(Link)`
 `
 
 const InternalIcon = styled.div`
-  font-family: "Montserrat", sans-serif;
   display: inline-block;
   color: var(--link);
   height: 100%;
