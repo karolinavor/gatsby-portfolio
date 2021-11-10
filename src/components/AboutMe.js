@@ -9,11 +9,13 @@ export default function AboutMe() {
     <Wrapper>
       <Container>
         <Heading>
-          Junior web developer and Computer Science student based in Brno, Czech
-          Republic.
+          Web developer and Computer Science student
         </Heading>
         <Paragraph>
-          // TODO
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis. Duis condimentum augue id magna semper rutrum. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero.
+        </Paragraph>
+        <Paragraph>
+          Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Integer pellentesque quam vel velit. Nullam dapibus fermentum ipsum. Et harum quidem rerum facilis est et expedita distinctio. Fusce consectetuer risus a nunc. Phasellus enim erat, vestibulum vel, aliquam a, posuere eu, velit. Nam quis nulla. Praesent in mauris eu tortor porttitor accumsan. Integer vulputate sem a nibh rutrum consequat. Praesent vitae arcu tempor neque lacinia pretium. Praesent in mauris eu tortor porttitor accumsan. Nulla est. Sed elit dui, pellentesque a, faucibus vel, interdum nec, diam.
         </Paragraph>
       </Container>
     </Wrapper>

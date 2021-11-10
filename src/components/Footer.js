@@ -25,8 +25,8 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <FlexContainer>
-        <ExternalLink href="mailto:vorlickovakarolina@gmail.com">
-          vorlickovakarolina@gmail.com
+        <ExternalLink href="mailto:me@karolinavorlickova.cz">
+          me@karolinavorlickova.cz
         </ExternalLink>
         <SocialsWrapper>
           <ExternalIcon

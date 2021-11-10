@@ -6,24 +6,24 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 import Image from "../components/Image"
-import DiveenFull from "../images/Diveen-full.jpg"
+import iisignFull from "../images/iisign-full.jpg"
 
 export default function Diveen() {
   return (
     <Layout>
       <Container>
         <Wrapper>
-          <Heading>Diveen</Heading>
+          <Heading>iisign</Heading>
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadání projektu bylo nakódování obsahu ze stránky www.diveen.cz na Shoptet web.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/stresova-inkontinence/">
+          <Paragraph>Kódování webu podle grafického návrhu. Plně responzivní design, animace a parallax.</Paragraph>
+          <ExternalLink className="margin-bottom" href="https://www.iisign.cz">
             Go To Website
           </ExternalLink>
-          <Image src={DiveenFull} alt="Project screenshot" />
+          <Image src={iisignFull} alt="Project screenshot" />
         </Wrapper>
       </Container>
     </Layout>

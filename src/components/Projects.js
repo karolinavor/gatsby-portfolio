@@ -9,6 +9,7 @@ import RivaPreview from "../images/Riva-preview.jpg"
 import DiveenPreview from "../images/Diveen-preview.jpg"
 import ProntodermPreview from "../images/Prontoderm-preview.jpg"
 import NutricePreview from "../images/Nutrice-preview.jpg"
+import iisignPreview from "../images/iisign-preview.jpg"
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -26,15 +27,8 @@ export default function Projects() {
     <Wrapper>
       <Container>
         <Subheading>Projects</Subheading>
-        <Paragraph>Zde najdete mé projekty. Další budou časem přibývat.</Paragraph>
         <ProjectsGridWrapper>
           {/*
-          <Card
-            name="iisign"
-            page="/iisign"
-            img={RivaPreview}
-            description="Website"
-          />
           <Card
             name="Jsme Tesari"
             page="/jsme-tesari"
@@ -49,10 +43,10 @@ export default function Projects() {
           />
           */}
           <Card
-            name="Nakladatelství Riva"
-            page="/nakladatelstvi-riva"
-            img={RivaPreview}
-            description="E-shop"
+            name="iisign"
+            page="/iisign"
+            img={iisignPreview}
+            description="Website"
           />
           <Card
             name="Nutrice"
@@ -71,6 +65,12 @@ export default function Projects() {
             page="/diveen"
             img={DiveenPreview}
             description="Landing page"
+          />
+          <Card
+            name="Nakladatelství Riva"
+            page="/nakladatelstvi-riva"
+            img={RivaPreview}
+            description="E-shop"
           />
           <Card
             name="Nextcore"

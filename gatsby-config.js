@@ -1,4 +1,8 @@
 module.exports = {
+	siteMetadata: {
+		// If you didn't use the resolveSiteUrl option this needs to be set
+		siteUrl: `https://www.karolinavorlickova.cz`,
+	},
 	plugins: [
 		{
 			resolve: `gatsby-plugin-google-gtag`,
@@ -32,6 +36,7 @@ module.exports = {
 			  	name: `src`,
 			  	path: `${__dirname}/src/`,
 			},
-		}
+		},
+		`gatsby-plugin-sitemap`,
 	]
 }

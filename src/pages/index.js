@@ -7,8 +7,8 @@ import Projects from "../components/Projects"
 export default function Home() {
   return (
     <Layout>
-      <AboutMe />
-      <Skills />
+      {/*<AboutMe />
+      <Skills />*/}
       <Projects />
     </Layout>
   )
