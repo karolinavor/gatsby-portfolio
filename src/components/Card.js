@@ -10,10 +10,14 @@ const CardWrapper = styled.div`
   margin: 1rem 0;
 `
 
+const RoundPreview = styled.img`
+  border-radius: 1rem;
+`
+
 export default function Card(props) {
   return (
     <CardWrapper>
-      <img src={props.img} alt="Project Preview" width="100%" />
+      <RoundPreview src={props.img} alt="Project Preview" width="100%" />
       <Title>{props.name}</Title>
       <Paragraph>{props.description}</Paragraph>
       <InternalLink href={props.page}>View Project</InternalLink>

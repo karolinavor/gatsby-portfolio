@@ -20,7 +20,8 @@ export default function NakladatelstviRiva() {
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
           <Hashtag>#Nette</Hashtag>
-          <Paragraph>Kódováno podle grafické předlohy. Součástí projektu bylo napojení na 1.WebIT CMS.</Paragraph>
+          <Hashtag>#Latte</Hashtag>
+          <Paragraph>Kódováno podle grafické předlohy. Součástí projektu bylo napojení na 1.Web IT CMS. V projektu jsem se naučila základy Nette a Latte - práci s presentery a modely, vytváření formulářů, makra.</Paragraph>
           <ExternalLink className="margin-bottom" href="https://nakladatelstvi-riva.cz">
             Go To Website
           </ExternalLink>

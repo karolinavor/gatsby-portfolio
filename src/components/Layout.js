@@ -27,7 +27,7 @@ export default function Layout(props) {
         />
         <meta
           name="description"
-          content="I'm junior web developer and CS student based in Brno, Czech Republic."
+          content="I'm web developer based in Brno, Czech Republic."
         />
         <meta
           name="keywords"
@@ -39,7 +39,7 @@ export default function Layout(props) {
         />
         <meta
           property="og:description"
-          content="I'm junior web developer and CS student based in Brno, Czech Republic."
+          content="I'm web developer based in Brno, Czech Republic."
         />
         <meta property="og:url" content="https://karolinavorlickova.cz/" />
         <meta property="og:image" content="" />
@@ -51,7 +51,7 @@ export default function Layout(props) {
         />
         <meta
           name="twitter:description"
-          content="I'm junior web developer and CS student based in Brno, Czech Republic."
+          content="I'm web developer based in Brno, Czech Republic."
         />
         <meta name="twitter:site" content="https://karolinavorlickova.cz/" />
         <meta name="twitter:image" content="" />

@@ -8,7 +8,7 @@ import Hashtag from "../components/Hashtag"
 import Image from "../components/Image"
 import ProntodermFull from "../images/Prontoderm-full.jpg"
 
-export default function Diveen() {
+export default function Prontoderm() {
   return (
     <Layout>
       <Container>
@@ -18,7 +18,7 @@ export default function Diveen() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadání projektu bylo nakódování landing page podle grafického návrhu na Shoptet web.</Paragraph>
+          <Paragraph>Zadáním projektu bylo nakódování stránky podle grafického návrhu na Shoptet e-shop.</Paragraph>
           <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/prontoderm/">
             Go To Website
           </ExternalLink>

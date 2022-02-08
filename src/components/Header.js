@@ -10,11 +10,12 @@ import {
 } from "react-icons/fa";
 
 const Logo = styled(Link)`
-  font-family: 'Staatliches', cursive;
+  font-family: 'Staatliches', 'DIN Condensed';
   font-size: 50px;
   display: inline-block;
   color: var(--link);
   padding-bottom: 0.1rem;
+  text-transform: uppercase;
 
   @media screen and (max-width: 599.9px) {
     width: 75%;

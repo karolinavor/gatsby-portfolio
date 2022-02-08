@@ -6,24 +6,23 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 import Image from "../components/Image"
-import DiveenFull from "../images/Diveen-full.jpg"
+import ProntosanFull from "../images/Prontosan-full.jpg"
 
-export default function Diveen() {
+export default function Prontosan() {
   return (
     <Layout>
       <Container>
         <Wrapper>
-          <Heading>Diveen</Heading>
+          <Heading>Prontosan</Heading>
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
-          <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadání projektu bylo nakódování obsahu ze stránky www.diveen.cz na Shoptet web.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/stresova-inkontinence/">
+          <Paragraph>Zadáním projektu bylo nakódování stránky podle grafického návrhu na Shoptet e-shop.</Paragraph>
+          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/prontosan/">
             Go To Website
           </ExternalLink>
-          <Image src={DiveenFull} alt="Project screenshot" />
+          <Image src={ProntosanFull} alt="Project screenshot" />
         </Wrapper>
       </Container>
     </Layout>

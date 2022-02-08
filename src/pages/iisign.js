@@ -6,9 +6,9 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 import Image from "../components/Image"
-import iisignFull from "../images/iisign-full.jpg"
+import iisignFull from "../images/Iisign-full.jpg"
 
-export default function Diveen() {
+export default function Iisign() {
   return (
     <Layout>
       <Container>
@@ -19,7 +19,9 @@ export default function Diveen() {
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Kódování webu podle grafického návrhu. Plně responzivní design, animace a parallax.</Paragraph>
+          <Hashtag>#Nette</Hashtag>
+          <Hashtag>#Latte</Hashtag>
+          <Paragraph>Kódování webu podle grafického návrhu. Plně responzivní design, animace a parallax scrolling efekt. Napojeno na 1. Web IT CMS v Nette.</Paragraph>
           <ExternalLink className="margin-bottom" href="https://www.iisign.cz">
             Go To Website
           </ExternalLink>
