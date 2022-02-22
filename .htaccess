@@ -5,3 +5,5 @@ RewriteEngine on
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www.karolinavorlickova.cz$ [NC]
 RewriteRule ^(.*)$ https://www.karolinavorlickova.cz/$1 [R=301,L]
+
+ErrorDocument 404 /404/index.html
