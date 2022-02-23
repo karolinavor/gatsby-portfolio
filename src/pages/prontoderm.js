@@ -18,8 +18,14 @@ export default function Prontoderm() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadáním projektu bylo nakódování stránky podle grafického návrhu na Shoptet e-shop.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/prontoderm/">
+          <Paragraph>
+            Zadáním projektu bylo nakódování stránky podle grafického návrhu na
+            Shoptet e-shop.
+          </Paragraph>
+          <ExternalLink
+            className="margin-bottom"
+            href="https://www.bbraunshop.cz/prontoderm/"
+          >
             Go To Website
           </ExternalLink>
           <Image src={ProntodermFull} alt="Project screenshot" />

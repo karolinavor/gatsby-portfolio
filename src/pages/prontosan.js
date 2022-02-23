@@ -18,8 +18,14 @@ export default function Prontosan() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadáním projektu bylo nakódování stránky podle grafického návrhu na Shoptet e-shop.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/prontosan/">
+          <Paragraph>
+            Zadáním projektu bylo nakódování stránky podle grafického návrhu na
+            Shoptet e-shop.
+          </Paragraph>
+          <ExternalLink
+            className="margin-bottom"
+            href="https://www.bbraunshop.cz/prontosan/"
+          >
             Go To Website
           </ExternalLink>
           <Image src={ProntosanFull} alt="Project screenshot" />

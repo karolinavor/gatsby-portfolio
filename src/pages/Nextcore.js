@@ -19,8 +19,14 @@ export default function Nextcore() {
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Mou prací bylo vymyslet jednoduchý design webových stránek a následně jej nakódovat.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.nextcore.cz/">
+          <Paragraph>
+            Mou prací bylo vymyslet jednoduchý design webových stránek a
+            následně jej nakódovat.
+          </Paragraph>
+          <ExternalLink
+            className="margin-bottom"
+            href="https://www.nextcore.cz/"
+          >
             Go To Website
           </ExternalLink>
           <Image src={NextcoreFull} alt="Project screenshot" />

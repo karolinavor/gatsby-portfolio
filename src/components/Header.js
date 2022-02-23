@@ -4,13 +4,10 @@ import { Link } from "gatsby"
 import { FlexContainer } from "./Container"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 
-import {
-  FaRegLightbulb,
-  FaLightbulb
-} from "react-icons/fa";
+import { FaRegLightbulb, FaLightbulb } from "react-icons/fa"
 
 const Logo = styled(Link)`
-  font-family: 'Staatliches', 'DIN Condensed';
+  font-family: "Staatliches", "DIN Condensed";
   font-size: 50px;
   display: inline-block;
   color: var(--link);
@@ -52,10 +49,7 @@ export default function Header() {
           {({ theme, toggleTheme }) => (
             <ThemeToggleIconWrapper>
               {theme === "light" ? (
-                <FaLightbulb
-                  size="24"
-                  onClick={() => toggleTheme("dark")}
-                />
+                <FaLightbulb size="24" onClick={() => toggleTheme("dark")} />
               ) : (
                 <FaRegLightbulb
                   size="24"

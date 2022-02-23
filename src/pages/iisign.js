@@ -21,7 +21,11 @@ export default function Iisign() {
           <Hashtag>#JavaScript</Hashtag>
           <Hashtag>#Nette</Hashtag>
           <Hashtag>#Latte</Hashtag>
-          <Paragraph>Kódování webu podle grafického návrhu. Plně responzivní design, animace a parallax scrolling efekt. Napojeno na 1. Web IT CMS v Nette.</Paragraph>
+          <Paragraph>
+            Kódování webu podle grafického návrhu. Plně responzivní design,
+            animace a parallax scrolling efekt. Napojeno na 1. Web IT CMS v
+            Nette.
+          </Paragraph>
           <ExternalLink className="margin-bottom" href="https://www.iisign.cz">
             Go To Website
           </ExternalLink>

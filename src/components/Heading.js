@@ -1,7 +1,7 @@
 import styled from "styled-components/macro"
 
 const Heading = styled.h1`
-  font-family: 'Staatliches', 'DIN Condensed';
+  font-family: "Staatliches", "DIN Condensed";
   text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -14,7 +14,7 @@ const Heading = styled.h1`
 `
 
 const Subheading = styled.h2`
-  font-family: 'Staatliches', 'DIN Condensed';
+  font-family: "Staatliches", "DIN Condensed";
   text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -22,10 +22,10 @@ const Subheading = styled.h2`
 `
 
 const Title = styled.h2`
-  font-family: 'Staatliches', 'DIN Condensed';
+  font-family: "Staatliches", "DIN Condensed";
   text-transform: uppercase;
   font-size: 1.5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   font-weight: 500;
 `

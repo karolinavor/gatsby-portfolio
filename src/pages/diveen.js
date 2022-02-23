@@ -18,8 +18,14 @@ export default function Diveen() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadání projektu bylo nakódování obsahu stránky www.diveen.cz na Shoptet e-shop.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/stresova-inkontinence/">
+          <Paragraph>
+            Zadání projektu bylo nakódování obsahu stránky www.diveen.cz na
+            Shoptet e-shop.
+          </Paragraph>
+          <ExternalLink
+            className="margin-bottom"
+            href="https://www.bbraunshop.cz/stresova-inkontinence/"
+          >
             Go To Website
           </ExternalLink>
           <Image src={DiveenFull} alt="Project screenshot" />

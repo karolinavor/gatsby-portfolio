@@ -12,12 +12,10 @@ import {
   FaReact,
   FaSass,
   FaFigma,
-  FaBootstrap
-} from "react-icons/fa";
+  FaBootstrap,
+} from "react-icons/fa"
 
-import {
-  GrGatsbyjs
-} from "react-icons/gr";
+import { GrGatsbyjs } from "react-icons/gr"
 
 const SkillsWrapper = styled.div`
   padding: 4rem 0;

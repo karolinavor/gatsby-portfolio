@@ -19,7 +19,3 @@ GraphiQL is running at `http://localhost:8000/___graphql`
   gatsby build
   gatsby serve
 ```
-
-
-
-

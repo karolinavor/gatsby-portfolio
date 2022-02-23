@@ -21,8 +21,14 @@ export default function Iisign() {
           <Hashtag>#JavaScript</Hashtag>
           <Hashtag>#Nette</Hashtag>
           <Hashtag>#Latte</Hashtag>
-          <Paragraph>Plně responzivní web podle návrhu s jednoduchým kontaktním formulářem a menu. Napojen na CMS.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.solidforest.cz">
+          <Paragraph>
+            Plně responzivní web podle návrhu s jednoduchým kontaktním
+            formulářem a menu. Napojen na CMS.
+          </Paragraph>
+          <ExternalLink
+            className="margin-bottom"
+            href="https://www.solidforest.cz"
+          >
             Go To Website
           </ExternalLink>
           <Image src={ForestFull} alt="Project screenshot" />

@@ -18,8 +18,14 @@ export default function Nutrice() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
-          <Paragraph>Zadáním projektu bylo nakódování stránky podle grafického návrhu na Shoptet e-shop.</Paragraph>
-          <ExternalLink className="margin-bottom" href="https://www.bbraunshop.cz/nutrice/">
+          <Paragraph>
+            Zadáním projektu bylo nakódování stránky podle grafického návrhu na
+            Shoptet e-shop.
+          </Paragraph>
+          <ExternalLink
+            className="margin-bottom"
+            href="https://www.bbraunshop.cz/nutrice/"
+          >
             Go To Website
           </ExternalLink>
           <Image src={NutriceFull} alt="Project screenshot" />
