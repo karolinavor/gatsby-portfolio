@@ -5,13 +5,14 @@ import { Subheading } from "./Heading"
 import Paragraph from "./Paragraph"
 import Card from "./Card"
 import NextcorePreview from "../images/Nextcore-preview.jpg"
-import RivaPreview from "../images/Riva-preview.jpg"
 import DiveenPreview from "../images/Diveen-preview.jpg"
 import ProntodermPreview from "../images/Prontoderm-preview.jpg"
 import NutricePreview from "../images/Nutrice-preview.jpg"
 import iisignPreview from "../images/Iisign-preview.jpg"
 import ProntosanPreview from "../images/Prontosan-preview.jpg"
 import ForestPreview from "../images/Forest-preview.jpg"
+import SilverlinePreview from "../images/Silverline-preview.jpg"
+import RystonPreview from "../images/Ryston-preview.jpg"
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -31,6 +32,18 @@ export default function Projects() {
         <Subheading>Projects</Subheading>
         <ProjectsGridWrapper>
           <Card
+            name="Ryston Electronics"
+            page="/ryston"
+            img={RystonPreview}
+            description="Website"
+          />
+          <Card
+            name="Silverline Real Estate"
+            page="/silverline"
+            img={SilverlinePreview}
+            description="Website"
+          />
+          <Card
             name="Solid Forest"
             page="/solid-forest"
             img={ForestPreview}
@@ -47,12 +60,6 @@ export default function Projects() {
             page="/prontoderm"
             img={ProntodermPreview}
             description="Landing page"
-          />
-          <Card
-            name="Nakladatelství Riva"
-            page="/nakladatelstvi-riva"
-            img={RivaPreview}
-            description="E-shop"
           />
           <Card
             name="Nutrice"

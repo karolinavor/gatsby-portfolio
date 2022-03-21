@@ -6,33 +6,30 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 import Image from "../components/Image"
-import RivaFull from "../images/Riva-full.jpg"
+import RystonFull from "../images/Ryston-full.jpg"
 
-export default function NakladatelstviRiva() {
+export default function Ryston() {
   return (
     <Layout>
       <Container>
         <Wrapper>
-          <Heading>Nakladatelství Riva</Heading>
+          <Heading>Ryston Electronics</Heading>
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
-          <Hashtag>#SASS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
           <Hashtag>#Nette</Hashtag>
           <Hashtag>#Latte</Hashtag>
           <Paragraph>
-            Kódováno podle grafické předlohy. Součástí projektu bylo napojení na
-            1.Web IT CMS. V projektu jsem se naučila základy Nette a Latte -
-            práci s presentery a modely, vytváření formulářů, makra.
+            Zadáním projektu bylo nakódování webu podle grafického návrhu.
           </Paragraph>
           <ExternalLink
             className="margin-bottom"
-            href="https://nakladatelstvi-riva.cz"
+            href="https://www.ryston.cz"
           >
             Go To Website
           </ExternalLink>
-          <Image src={RivaFull} alt="Project screenshot" />
+          <Image src={RystonFull} alt="Project screenshot" />
         </Wrapper>
       </Container>
     </Layout>
