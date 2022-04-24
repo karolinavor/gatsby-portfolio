@@ -6,14 +6,14 @@ import { ExternalLink } from "../components/Link"
 import Paragraph from "../components/Paragraph"
 import Hashtag from "../components/Hashtag"
 import Image from "../components/Image"
-import NutriceFull from "../images/Nutrice-full.jpg"
+import BraunolFull from "../images/Braunol-full.jpg"
 
-export default function Nutrice() {
+export default function Braunol() {
   return (
     <Layout>
       <Container>
         <Wrapper>
-          <Heading>Nutrice</Heading>
+          <Heading>Braunol</Heading>
           <Hashtag>#Frontend</Hashtag>
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
@@ -25,11 +25,11 @@ export default function Nutrice() {
           </Paragraph>
           <ExternalLink
             className="margin-bottom"
-            href="https://www.bbraunshop.cz/nutrice/"
+            href="https://www.bbraunshop.cz/braunol/"
           >
             Go To Website
           </ExternalLink>
-          <Image src={NutriceFull} alt="Project screenshot" />
+          <Image src={BraunolFull} alt="Project screenshot" />
         </Wrapper>
       </Container>
     </Layout>

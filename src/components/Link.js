@@ -43,6 +43,10 @@ const InternalLink = styled(Link)`
   }
 `
 
+const InternalLinkImage = styled(Link)`
+  cursor: pointer;
+`
+
 const InternalIcon = styled.div`
   display: inline-block;
   color: var(--link);
@@ -59,4 +63,4 @@ const InternalIcon = styled.div`
   }
 `
 
-export { ExternalLink, InternalLink, ExternalIcon, InternalIcon }
+export { ExternalLink, InternalLink, ExternalIcon, InternalIcon, InternalLinkImage }

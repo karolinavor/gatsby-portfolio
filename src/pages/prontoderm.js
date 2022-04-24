@@ -18,6 +18,7 @@ export default function Prontoderm() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
+          <Hashtag>#Shoptet</Hashtag>
           <Paragraph>
             Zadáním projektu bylo nakódování stránky podle grafického návrhu na
             Shoptet e-shop.

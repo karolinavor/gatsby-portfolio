@@ -13,6 +13,7 @@ import ProntosanPreview from "../images/Prontosan-preview.jpg"
 import ForestPreview from "../images/Forest-preview.jpg"
 import SilverlinePreview from "../images/Silverline-preview.jpg"
 import RystonPreview from "../images/Ryston-preview.jpg"
+import BraunolPreview from "../images/Braunol-preview.jpg"
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -31,6 +32,12 @@ export default function Projects() {
       <Container>
         <Subheading>Projects</Subheading>
         <ProjectsGridWrapper>
+          <Card
+            name="Braunol"
+            page="/braunol"
+            img={BraunolPreview}
+            description="Landing page"
+          />
           <Card
             name="Ryston Electronics"
             page="/ryston"

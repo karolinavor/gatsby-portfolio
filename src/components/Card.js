@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components/macro"
 import { Title } from "./Heading"
 import Paragraph from "./Paragraph"
-import { InternalLink } from "./Link"
+import { InternalLink, InternalLinkImage } from "./Link"
 
 const CardWrapper = styled.div`
   width: 100%;
@@ -17,7 +17,9 @@ const RoundPreview = styled.img`
 export default function Card(props) {
   return (
     <CardWrapper>
-      <RoundPreview src={props.img} alt="Project Preview" width="100%" />
+      <InternalLinkImage href={props.page}>
+        <RoundPreview src={props.img} alt="Project Preview" width="100%" />
+      </InternalLinkImage>
       <Title>{props.name}</Title>
       <Paragraph>{props.description}</Paragraph>
       <InternalLink href={props.page}>View Project</InternalLink>

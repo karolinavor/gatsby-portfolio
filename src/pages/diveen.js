@@ -18,6 +18,7 @@ export default function Diveen() {
           <Hashtag>#HTML</Hashtag>
           <Hashtag>#CSS</Hashtag>
           <Hashtag>#JavaScript</Hashtag>
+          <Hashtag>#Shoptet</Hashtag>
           <Paragraph>
             Zadání projektu bylo nakódování obsahu stránky www.diveen.cz na
             Shoptet e-shop.
