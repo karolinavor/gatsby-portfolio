@@ -4,7 +4,9 @@ import { graphql } from "gatsby"
 import styled from "styled-components/macro"
 import { Container, Wrapper } from "../components/Container"
 import { Subheading } from "../components/Heading"
-import Card from "../components/Card"
+import { Title } from "../components/Heading"
+import { InternalLink, InternalLinkImage } from "../components/Link"
+import Image from "gatsby-image"
 
 const ProjectsGridWrapper = styled.div`
   margin-top: 1rem;
@@ -17,12 +19,22 @@ const ProjectsGridWrapper = styled.div`
   }
 `
 
-export default function Home({
-  data: {
-    allMarkdownRemark: { edges },
-  },
-}) {  
+const CardWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0;
+`
 
+const Paragraph = styled.p`
+  margin: 1rem 0;
+`
+
+const RoundPreview = styled(Image)`
+  border-radius: 1rem;
+`
+
+export default function Home({ data }) {  
+  let edges = data.allMarkdownRemark.edges
   return (
     <Layout>
       <Wrapper>
@@ -30,13 +42,18 @@ export default function Home({
           <Subheading>Projects</Subheading>
           <ProjectsGridWrapper>
             {edges.map((item, index) => {
-              return <Card
-                name={item.node.frontmatter.title}
-                page={item.node.frontmatter.slug}
-                img={item.node.frontmatter.previewImage.childImageSharp.fluid}
-                description="Landing page"
-                key={index}
-              />
+              return (
+                <div className="card" key={index}>
+                  <CardWrapper>
+                    <InternalLinkImage to={item.node.frontmatter.slug}>
+                      <RoundPreview fluid={item.node.frontmatter.previewImage.childImageSharp.fluid} alt="Project Preview"/>
+                    </InternalLinkImage>
+                    <Title>{item.node.frontmatter.title}</Title>
+                    <Paragraph>Landing page</Paragraph>
+                    <InternalLink to={item.node.frontmatter.slug}>View Project</InternalLink>
+                  </CardWrapper>
+                </div>
+              )
             })}
           </ProjectsGridWrapper>
         </Container>
