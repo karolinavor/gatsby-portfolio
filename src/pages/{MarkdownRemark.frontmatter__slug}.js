@@ -23,6 +23,7 @@ export default function ProjectTemplate({data,}) {
       <Container>
         <Wrapper>
           <Heading>{frontmatter.title}</Heading>
+          <Hashtag>#{frontmatter.type}</Hashtag>
           {frontmatter.tags.map((tag, index) => {
             return <Hashtag key={index}>#{tag}</Hashtag>
           })}
@@ -34,7 +35,7 @@ export default function ProjectTemplate({data,}) {
           >
             Go To Website
           </ExternalLink>
-          <Img fluid={frontmatter.fullImage.childImageSharp.fluid} alt="Project screenshot" />
+          <Img fluid={frontmatter.fullImage.childImageSharp.fluid} alt="Project screenshot" width="400" height="300" />
         </Wrapper>
       </Container>
     </Layout>
@@ -49,6 +50,7 @@ export const pageQuery = graphql`
         slug
         tags
         title
+        type
         link
         fullImage {
           childImageSharp {

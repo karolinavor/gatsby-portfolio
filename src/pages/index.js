@@ -49,7 +49,7 @@ export default function Home({ data }) {
                       <RoundPreview fluid={item.node.frontmatter.previewImage.childImageSharp.fluid} alt="Project Preview"/>
                     </InternalLinkImage>
                     <Title>{item.node.frontmatter.title}</Title>
-                    <Paragraph>Landing page</Paragraph>
+                    <Paragraph>{item.node.frontmatter.type}</Paragraph>
                     <InternalLink to={item.node.frontmatter.slug}>View Project</InternalLink>
                   </CardWrapper>
                 </div>
@@ -73,6 +73,7 @@ export const pageQuery = graphql`
             index
             slug
             title
+            type
             previewImage {
               childImageSharp {
                 fluid {

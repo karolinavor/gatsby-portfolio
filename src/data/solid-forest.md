@@ -3,6 +3,7 @@ index: 7
 slug: "/solid-forest"
 tags: ["Frontend", "HTML", "CSS", "SASS", "JavaScript", "Nette", "Latte"]
 title: "Solid Forest"
+type: "Microsite"
 link: "https://www.solidforest.cz"
 fullImage: ../images/Forest-full.jpg
 previewImage: ../images/Forest-preview.jpg

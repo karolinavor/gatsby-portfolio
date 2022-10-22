@@ -3,6 +3,7 @@ index: 1
 slug: "/nextcore"
 tags: ["Frontend", "HTML", "CSS", "SASS", "JavaScript"]
 title: "Nextcore"
+type: "Microsite"
 link: "https://www.nextcore.cz/"
 fullImage: ../images/Nextcore-full.jpg
 previewImage: ../images/Nextcore-preview.jpg
